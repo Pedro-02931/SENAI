@@ -1,0 +1,76 @@
+Análise de requisitos
+
+# Slides do professor
+Levantar os requisitos - consilida funções, interface, desempenho, o contexto e as restrições do sistema.
+
+Modela (modelagem) - é um recurso usado para o suporte da síntese da solução, o modelo vai apresentar ferramentas qie facilitarão o entedimento do sistema, como as funcionalidades, informações e comportamento do sistenma
+
+Aparentemente é importante levantar o branch e tentar parear a interface com o nivel do usuario(sempre quando levantar os requisitos, cascatear e agrupar os grupos com algoritmos de  k-means, e o leiyout deve ser compátivil com a branch, mesmo que a funcionalidade resolva todos os BO's. Sempre foque no Beuhus(acho que era assim, mas é a escola que foca no minimalismo). 
+
+Revisão - Juntos, cliente e analista, avaliarão o objetivo do projeto com o intuito de eliminar possíveis redundâncias, inconscistências e omissões do sistema, obtendo uma mesma visão.
+
+Aparentemente pode captar coisas que o usuario faz e tendencia e vai entrando em algoritmos, tipo, a forma como usa pode disponibilizar features sem mostrar mudanças para o usuario. Tipo, através de algoritmos de k-means pode-se agrupar pergfil de uso de computador com base em telemetria, e assim disposnilizar features de acordo com modelos matematicos.
+
+Aparentemente pode ser modelado UI e UX matematicamente para otimização. tipo, agrupando comportamento em bolhas vc meio que direciona features, tipo, a interface do meu youtube mudou mas o da minha avó não, mas baseado no meu comportamento, ficou melhor para mim, tipo, a IA poderia saber antes da gente saber.
+
+A precificação deve ser definida quando o mapeamento deve ser feito. pensei numa solução através ca captação de tokens e o treino de uma rede neural tensorial, em que através do universo de palavras e cadeias markvovianas que transforma a linguagem(n-dimensões) poderia mapear o planejamento e assim geraria uma interface entre a equipe de desenvolvimento e o cliente. No caso, esses formulários seriam estratégicos a cada ciclo de fechamento, em que as perguntas e os dados devem ser revistas pela equipe, o que permite o melhor mapeamento pelo motor de inferencia probabilistico. No caso, isso eria a entrada(formulario mapeado pelo cliente), treina o motor de inferencia e assim gera uma contextualização virtual com base na onda senoidal tensorial, que assim conseguiria ver o estado inicial e fechar de forma mais estratégicas as lacunas que nem o cliente estava ciente. Cada neuronio seria uma lista(tipo SO, bibliotecas, etc) e o aprendizado seria um grafo com o modello treinado para contextualizar(para mim é o mapeamento e  definição da onda tensorial) e o final seria um modelo de linguagem sabendo o que é necessário, criando meio que uma "cognição" para o processo, simulando meio que uma consciencia.
+
+Gestão de requisitos - Preocupa-se com a documentação, versionamento, contrle de mudanças e qualidade dos requisitos levantados na fase de especificação
+
+Como podemos levantar "Bons requisitos"?
+**Necessário** - Criar um requisito que não será utilizado no software, poderá trazer mais problemas do que acertos.
+
+Na concepção de um projeto devemos identificar apenas o que realmente o cliente precisam o requisitos deve ser importante para o sucesso
+
+
+# Abstração lousa
+```mermaid
+diagramClass
+
+    Planejamento () {
+        UML() {
+            - Casos de uso | Diagrama de classes | 
+            + Front-Ent{
+                Desingn {
+                    Layout{
+                        + Prototipo
+                        + UI
+                        + Ux
+                    }
+                    Dev {
+                        + html
+                        + css
+                    }
+                    Programador{
+                        + JS
+                    }
+                }
+        }        
+    }
+  
+    }
+
+
+Front End.Desing ()-> 
++ Layout () {
+    UI | tensoriza | UX () -> Prototipo() -> Dev {
+        html ;; css -> Programador() -> JS
+    }
+
+
+Levantamento de requisitos | Planejamento(cronogramas, pessoas, custos) | Descrição | Teste
+
+Custo = escopo * cronograma
+
+
+
+```
+-- Melhore esse diagrama, pq improvisei a logica e tentei abstrair o que o professor anotou na lousa com o conceito de nested conditionals. melhore esse diagrama de classe, no caso, o mesmo nivel são operações executadas em paralelo e as de linhas adicionam o contexto, o que é em pipe é direcionamento final e as chaves são aberturas de contexto, como checkpoits
+
+
+---
+
+Re
+
+
+
