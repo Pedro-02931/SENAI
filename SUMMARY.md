@@ -6,6 +6,7 @@
   * [Teorico](iot/teorico/README.md)
     * [21 - 01 - 2025 - Luiz](iot/teorico/21-01-2025-luiz.md)
     * [28 - 01 - 25 - IoT](iot/teorico/28-01-25-iot.md)
+    * [04 - 02 - 2025 - Luiz](iot/teorico/04-02-2025-luiz.md)
 * [LM](lm/README.md)
   * [Teorico](lm/teorico/README.md)
     * [31 -01 - 2025 - Leonid](lm/teorico/31-01-2025-leonid.md)
