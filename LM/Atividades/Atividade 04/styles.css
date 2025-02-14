@@ -28,8 +28,8 @@ header, footer {
 .container {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 2fr;
-    gap: 5px;
+    grid-template-rows: 3fr 1fr;
+    gap: 10px;
     flex-grow: 1;
     padding: 10px;
 }
@@ -40,6 +40,7 @@ header, footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 5px solid black; /* Margem preta entre os blocos */
 }
 
 /* Primeiro container (1/4 largura, altura total) */
@@ -48,56 +49,31 @@ header, footer {
     grid-column: 1;
 }
 
-/* Segundo container (3/4 largura, subdividido) */
+/* Segundo container (3/4 largura, três blocos em linha horizontal) */
 .segunda {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-column: 2;
-    grid-row: 2;
-    gap: 5px;
+    gap: 10px;
 }
 
-/* Bloco grande dentro do segundo container */
+/* Bloco grande (vale por duas pequenas na horizontal) */
 .grande {
-    grid-row: 1;
     grid-column: 1;
 }
 
-/* Blocos pequenos empilhados */
-.pequena-container {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
+/* Blocos pequenos ao lado */
 .pequena {
-    flex: 1;
+    grid-column: span 1;
 }
 
-/* Terceiro container (ao lado do primeiro e sobre o segundo) */
+/* Terceiro container (igual ao segundo, mas vertical) */
 .terceira {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-column: 2;
     grid-row: 1;
-    gap: 5px;
-}
-
-/* Blocos do topo */
-.topo-container {
-    display: flex;
-    gap: 5px;
-}
-
-/* Bloco médio abaixo dos blocos do topo */
-.medio {
-    grid-column: span 2;
-}
-
-/* Último bloco (quadrado preenchendo tela) */
-.ultima {
-    grid-column: 2;
-    grid-row: 2;
+    gap: 10px;
 }
